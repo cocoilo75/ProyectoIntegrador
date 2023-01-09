@@ -1,0 +1,16 @@
+.topheader{
+
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+   display: flex;
+   align-items: center;
+   font-size: 18px;
+   font-weight: 500;
+   color: var(--primary-color);
+}
