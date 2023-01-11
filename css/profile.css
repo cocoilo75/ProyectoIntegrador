@@ -49,3 +49,36 @@
 .profile-btn:hover {
     filter: brightness(130%);
 }
+
+@media (min-width: 950px){
+    .profile-info {
+        margin-bottom: 0px;
+     }
+     .profile-img {
+         width: 100%;
+         max-width: 350px;
+         transform: scaleX(-1);
+     }
+          
+     .profile {
+         text-align: left;
+         display: flex;
+         justify-content: space-between;
+         max-width: 980px;
+         margin: 0 auto;
+         align-items: center;
+
+     }
+     .profile-title {
+         font-size: 60px;
+
+     }
+     .profile-details {
+         font-size: 25px;         
+         margin: 30px 0;
+     }
+     .profile-btn {
+         font-size: 28px;
+     }
+     
+    }
