@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/profile.css"/>
     <link rel="stylesheet" href="css/skills.css"/>
+    <link rel="stylesheet" href="css/experiences.css"/>
+    <link rel="stylesheet" href="css/contact.css"/>   
     <script defer src="js/app.js"></script>
   </head>
   <body>
@@ -42,15 +44,16 @@
             <img src="icons8-cerrar-ventana-32.png" alt="cerrar menú">
           </button>
           <li><a href="#profile" class="selected">Perfil</a></li>
-          <li><a href="#experiencie">Experiencia</a></li>
-          <li><a href="#skill">Habilidades</a></li>
+          <li><a href="#experience">Experiencia</a></li>
+          <li><a href="#skills">Habilidades</a></li>
           <li><a href="#contact">Contacto</a></li>
         </ul>
       </nav>
     </header>
+
 <div class="horizontal-padding vertical-padding">
-  <section class="profile">
-    <div class="profile-info">
+  <section class="profile" id="profile">
+    <div class="profile-info"> 
          <h1 class="profile-title">Hola, soy  <br />Hugo Monzon </h1>
          <p class="profile-details">
         Soy un apasionado por la arquitectura y desarrollo de software con
@@ -68,8 +71,53 @@
     </span>
   </section>
 </div>
+<section class="experiences" id="experience">
+  <img src="wave.svg" alt="division" class="wave">
+  <div class="experiences-body">
+    <h2 class="experiences-title">Experiencia</h2>
+    <div class="experiences-grid">
+      <div class="empty"></div>
+      <div class="line"></div>      
+      <div class="experience">
+        <div class="experience-date">2020-2021</div>
+        <div class="experience-company">Cosmopolitan xx</div>
+        <div class="experience-position">Tecnique software </div>
+        <div clas="experience-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Pariatur aut laboriosam nemo consequatur labore, quibusdam facere, 
+           dolorum magnam ea ad dolorem suscipit praesentium adipisci voluptatem!      
+        </div>
+      </div>
+      <div class="experience experience_left">
+        <div class="experience-date">2021-2022</div>
+        <div class="experience-company">Cosmopolitan xx</div>
+        <div class="experience-position">Tecnique software </div>
+        <div clas="experience-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Pariatur aut laboriosam nemo consequatur labore, quibusdam facere, 
+           dolorum magnam ea ad dolorem suscipit praesentium adipisci voluptatem!      
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="empty"></div>
+      <div class="empty"></div>
+      <div class="line"></div>
+      <div class="experience">
+        <div class="experience-date">2022-2023</div>
+        <div class="experience-company">Cosmopolitan xx</div>
+        <div class="experience-position">Tecnique software </div>
+        <div clas="experience-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Pariatur aut laboriosam nemo consequatur labore, quibusdam facere, 
+           dolorum magnam ea ad dolorem suscipit praesentium adipisci voluptatem!      
+        </div>
+      </div>
+    </div>
+  </div>
+  <img src="wave.svg" alt="division" class="wave wave_bottom">
+</section>
 <div class="horizontal-padding vertical-padding">
- <section class="skills">
+ <section class="skills" id="skills">
   <h2 class="skills-title">Habilidades</h2>
   <ul class="skills-list">
 <li class="skills-skill">CSS</li>
@@ -81,5 +129,64 @@
 
  </section>
 </div>
+<div class="horizontal-padding vertical-padding">
+  <section class="contact" id="contact"> 
+    <h2 class="contact-title">Contacto</h2>
+    <div class="contact-details">
+      <div class contact-details-group>
+        <p class="contact-label">Dirección</p>
+        <p class="contact-text">Corrientes, Argentina</p>
+      </div>
+      <div class contact-details-group>
+        <p class="contact-label">Email</p>
+        <p class="contact-text">hugolmonzon@hotmail.com</p>
+      </div>
+      <div class contact-details-group>      
+        <p class="contact-text">Deje su mensaje y con gusto responderé</p>
+      </div>
+    </div>
+    <form class="contact-form">
+    <div class="contact-for-group">
+      <label for="name">Nombre</label>
+      <input required type="text" name="name" id="name">
+
+    </div>
+    <div class="contact-for-group">
+      <label for="email">Email</label>
+      <input required type="email" name="email" id="email">
+    </div>
+    <div class="contact-for-group">
+      <label for="message">Mensaje</label>
+      <textarea required name="message" id="message" rows="6"></textarea>
+    </div>
+    <button type="submit" class="contact-form-submit">Enviar</button>
+    </form>
+    <nav class="social">
+      <ul class="social-list">
+        <li>
+          <a href="https://twitter.com/HugoMon1975">
+            <img src="iconos/twitter-2-svgrepo-com2.svg" alt="twitter profile">
+          </a>          
+        </li>
+        <li>
+          <a href="https://twitter.com/HugoMon1975">
+            <img src="iconos/facebook-color-svgrepo-com (2).svg" alt="facebook profile">
+          </a>          
+        </li>
+        <li>
+          <a href="https://twitter.com/HugoMon1975">
+            <img src="iconos/linkedin-svgrepo-com2.svg" alt="linkedin profile">
+          </a>          
+        </li>
+        <li>
+          <a href="https://twitter.com/HugoMon1975">
+            <img src="iconos/social-youtube-svgrepo-com2.svg" alt="youtube profile">
+          </a>          
+        </li>
+      </ul>
+
+    </nav>
+  </section>
+  </div>
   </body>
 </html>
