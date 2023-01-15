@@ -8,7 +8,9 @@
     --menu-mobile-background-color: #3a4460;
 }
 
-
+section[id] {
+    scroll-margin-top: 70px;
+}
 
 body {
     font-family: 'Montserrat', sans-serif;
