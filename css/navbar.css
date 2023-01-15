@@ -108,7 +108,7 @@
 
 .menu a::after {
     content: none;
-.topheader{
+
 
 }
 
@@ -124,7 +124,7 @@
 .menu a.selected{
     color: var(--secondary-color);
 }
-}
+
 .logo {
    display: flex;
    align-items: center;
