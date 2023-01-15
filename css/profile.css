@@ -57,7 +57,7 @@
      .profile-img {
          width: 100%;
          max-width: 350px;
-         transform: scaleX(-1);
+         transform: scaleX(1);
      }
           
      .profile {
@@ -65,12 +65,12 @@
          display: flex;
          justify-content: space-between;
          max-width: 980px;
-         margin: 0 auto;
+         margin: 70px auto;
          align-items: center;
 
      }
      .profile-title {
-         font-size: 60px;
+         font-size: 70px;
 
      }
      .profile-details {
