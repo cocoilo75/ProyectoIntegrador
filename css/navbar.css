@@ -108,11 +108,27 @@
 
 .menu a::after {
     content: none;
+.topheader{
+
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+}
    
+
 }
 
 .menu a:hover,
 .menu a.selected{
     color: var(--secondary-color);
 }
+}
+.logo {
+   display: flex;
+   align-items: center;
+   font-size: 18px;
+   font-weight: 500;
+   color: var(--primary-color);
 }
